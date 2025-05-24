@@ -1,0 +1,71 @@
+/* Blank stylesheet */
+
+/* Main page background color */
+body {
+  background-color: #222; /* light black */
+}
+
+/* Center headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Main heading styles */
+h1 {
+  font-size: 40px;
+  color: green;
+}
+
+/* Subheading styles */
+h2 {
+  font-size: 29px;
+  color: lightblue; /* dark yellow */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 24px 0;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px #000;    
+}
+
+/* Card container styles */
+.card {
+  background: #2c2c2c;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  max-width: 400px;
+  margin: 60px auto 0 auto;
+  padding: 36px 32px 32px 32px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+/* Profile image styles */
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 18px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* List styles */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+
+.card ul li {
+  margin-bottom: 14px;
+}
+
+.card ul li:last-child {
+  margin-bottom: 0;
+}
