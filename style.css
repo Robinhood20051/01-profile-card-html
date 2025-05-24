@@ -13,13 +13,18 @@ h1, h2 {
 /* Main heading styles */
 h1 {
   font-size: 40px;
-  color: green;
+  color: #90ee90; /* light green */
 }
 
 /* Subheading styles */
 h2 {
   font-size: 29px;
   color: lightblue; /* dark yellow */
+}
+
+/* My Favorite Websites heading */
+.card h3 {
+  color: #ff7f7f; /* light red */
 }
 
 /* Paragraph styles */
@@ -68,4 +73,16 @@ p {
 
 .card ul li:last-child {
   margin-bottom: 0;
+}
+
+/* Remove blue and underline from links */
+.card a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card a:hover {
+  color: #ff7f7f;
+  text-decoration: underline;
 }
